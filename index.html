@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./CSS/styles.css">
+
+</head>
+<body>
+
+<main class="container">
+  <section class="results">
+    
+    <h2 results__header>Your Result</h2>
+    
+    <div class="circle">
+      <p class="circle_text circle_score">76</p>
+      <p class="circle_text">of 100</p>
+    </div>
+    
+    <div class="description">
+      <h2 class="results__text description__header">Great</h2> 
+    <p class="results__text description__text">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    
+  </section>
+
+  <section class="summary">
+    <h2 class="summary__header">Summary</h2>
+    <dl class="summary__list">
+      <div class="summary__card card__reaction">
+        <dt class="card__text list_category"> <img src="./assets/images/icon-reaction.svg" alt="icon-reaction" class="category__img">Reaction</dt>
+        <dd class="card__text card_results"><p class="category_score">80</p><p class="category_score_total">/100</p></dd>
+      </div>
+      
+      <div class="summary__card card__memory">
+        <dt class="card__text list_category"><img src="./assets/images/icon-memory.svg" alt="icon-memory" class="category__img">Memory</dt>
+        <dd class="card__text card_results"><p class="category_score">92</p><p class="category_score_total">/100</p></dd>
+      </div>
+
+      <div class="summary__card card__verbal">
+        <dt class="card__text list_category"><img src="./assets/images/icon-verbal.svg" alt="icon-verbal" class="category__img">Verbal</dt>
+        <dd class="card__text card_results"><p class="category_score">61</p><p class="category_score_total">/100</p></dd>
+      </div>
+      
+      <div class="summary__card card__visual">
+        <dt class="card__text list_category"><img src="./assets/images/icon-visual.svg" alt="icon-visual" class="category__img">Visual</dt>
+        <dd class="card__text card_results"><p class="category_score">72</p><p class="category_score_total">/100</p></dd>
+      </div>
+    </dl>
+
+    <section class="continue">
+      <button class="btn-continue">Continue</button>
+    </section>
+  </section>
+</main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">AUVM</a>.
+    </div>
+  </footer>
+  
+</body>
+</html>
